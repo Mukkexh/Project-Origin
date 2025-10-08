@@ -1,6 +1,6 @@
 # 🧬 Project Origin: The Human Continuity Archive
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC--BY--NC%204.0-blue.svg)](LICENSE.md)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)  
 **Concept Author:** Pandaworks Studio (Technomancer)  
 **Status:** Open for collaboration, funding, and ethical development  
 
