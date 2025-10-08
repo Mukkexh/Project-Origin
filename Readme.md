@@ -4,7 +4,8 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)  
 **Concept Author:** Jeremy Freshour [Ganja Panda] (Technomancer, PandaWorks Studio)  
 **Status:** Open for collaboration, funding, and ethical development  
-**Version:** v0.1 - Prototype Build (2025-10-08)
+**Version:** v0.1 - Prototype Build (2025-10-08)  
+
 ---
 
 ## 🌍 Vision
