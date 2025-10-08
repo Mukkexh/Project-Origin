@@ -114,4 +114,9 @@ We need only the unity of purpose.
 > We are one story told under many skies.”  
 
 ---
+## ⚡ Quickstart (Prototype)
 
+To test the proof-of-concept lineage map generator:
+
+```bash
+python scripts/origin_map.py --ancestry examples/ancestry_example.json --lookup examples/region_lookup.csv --out examples/your_lineage.geojson

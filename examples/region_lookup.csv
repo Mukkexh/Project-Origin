@@ -1,0 +1,7 @@
+region,lat,lon,display_name,migration_node
+British & Irish,53.0,-8.0,North Atlantic Isles,NW_Europe
+Iberian,40.0,-4.0,Iberia,SW_Europe
+West African,8.0,-1.5,West Africa,West_Africa
+Broadly Northwestern European,51.0,10.0,Northwestern Europe,NW_Europe
+Native American,19.0,-99.0,Ancestral Americas,Americas
+Unassigned/Other,0.0,0.0,Unassigned,Global

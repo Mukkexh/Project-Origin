@@ -1,0 +1,166 @@
+# Generic .gitignore for Project Origin
+# Adjust sections as needed for your toolchain. This repository currently uses Python + (planned) Unity/Unreal + VS Code.
+
+##########################
+# OS / Editor / Tools
+##########################
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails/cache
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+
+# VS Code
+.vscode/
+# Keep workspace settings out of source control unless intentionally shared.
+
+# JetBrains IDEs
+.idea/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+##########################
+# Python
+##########################
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checkers
+.mypy_cache/
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+secrets.yaml
+
+##########################
+# Unity
+##########################
+# Ignore common generated Unity folders but keep `Assets/` in source control.
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/Logs/
+/UserSettings/
+/MemoryCaptures/
+
+# Visual Studio / Unity generated files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+##########################
+# Unreal Engine
+##########################
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+##########################
+# Node / JS (if front-end tools added)
+##########################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+##########################
+# Large data and generated artifacts
+##########################
+# Avoid checking large generated datasets into the repo. Keep raw/small samples under `assets/sample/`.
+# Uncomment specific lines below if you want to ignore generated asset outputs.
+# assets/geojson/
+# assets/generated/
+
+# Common DB / caches
+*.sqlite3
+*.db
+*.db-journal
+
+##########################
+# Archives / packages
+##########################
+*.zip
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+##########################
+# Certificates / keys
+##########################
+*.pem
+*.key
+*.pfx
+
+##########################
+# Misc
+##########################
+coverage.xml
+*.cover
+*.log
+._*
+
+# End of file
