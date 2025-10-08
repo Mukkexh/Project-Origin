@@ -1,5 +1,5 @@
 # 🧬 Project Origin: The Human Continuity Archive  
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC--BY--NC%204.0-blue.svg)](LICENSE.md) 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC--BY--NC%204.0-blue.svg)](LICENSE.md)  
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)  
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)  
 **Concept Author:** Jeremy Freshour [Ganja Panda] (Technomancer, PandaWorks Studio)  
