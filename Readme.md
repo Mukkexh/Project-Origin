@@ -117,15 +117,15 @@ We need only the unity of purpose.
 ---
 ## ⚡ Quickstart (Prototype)
 
-To test the proof-of-concept lineage map generator:
-Step 1: Run your python generator
+
+# **Step 1 — Generate lineage GeoJSON**
 ```bash
 python scripts/origin_map.py --ancestry examples/ancestry_example.json --lookup examples/region_lookup.csv --out examples/your_lineage.geojson
-
-Step 2: 
+```
+# **Step 2 — Start a local server**
 ```bash
 python -m http.server 8000
-
-```bash
-Step 3: Open http://localhost:8000/examples/viewer.html
-(Leaflet pulls your_lineagel.geojason and draws it) 
+```
+# **Step 3 — View in browser**
+Open http://localhost:8000/examples/viewer.html
+*(Leaflet will load your_lineage.geojson and plot ancestry points)*
