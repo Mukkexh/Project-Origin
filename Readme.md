@@ -16,7 +16,7 @@ It visualizes human ancestry, migration, and adaptation from the dawn of Homo sa
 
 Its mission is simple:  
 > To show every human being that there is no “us vs. them.”  
-> Only *us* — one adaptable species under many suns.
+> Only *us* — one adaptable species under many skys.
 
 ---
 
