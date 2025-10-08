@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Project Origin – GeoJSON Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIINUNfPzm6Te+k9S/hfC2LxZCv0C2A/4QM=" crossorigin=""
+  />
+  <style>html,body,#map{height:100%;margin:0}</style>
+</head>
+<body>
+<div id="map"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+// Basic map
+const map = L.map('map').setView([20, 0], 2);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 6, attribution: '&copy; OpenStreetMap'
+}).addTo(map);
+
+// Load the generated GeoJSON
+fetch('your_lineage.geojson')
+  .then(r => r.json())
+  .then(data => {
+    const layer = L.geoJSON(data, {
+      pointToLayer: (f, latlng) => {
+        const pct = f.properties.pct || 5;
+        const size = 4 + Math.min(20, pct / 3); // scale by %
+        return L.circleMarker(latlng, { radius: size, weight: 1 });
+      },
+      onEachFeature: (f, layer) => {
+        const p = f.properties || {};
+        layer.bindPopup(`<b>${p.name || p.region}</b><br/>${p.pct || '?'}%`);
+      }
+    }).addTo(map);
+    map.fitBounds(layer.getBounds().pad(0.3));
+  })
+  .catch(err => console.error('Failed to load GeoJSON:', err));
+</script>
+</body>
+</html>

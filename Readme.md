@@ -1,6 +1,7 @@
 # 🧬 Project Origin: The Human Continuity Archive
-**Concept Author:** Pandworks Studio (Technomancer)  
-**License:** [Creative Commons CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)  
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC--BY--NC%204.0-blue.svg)](LICENSE.md)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+**Concept Author:** Pandaworks Studio (Technomancer)  
 **Status:** Open for collaboration, funding, and ethical development  
 
 ---
@@ -106,7 +107,7 @@ We need only the unity of purpose.
 
 **If you believe education, empathy, and technology can bridge humanity’s divisions — join us.**
 
-- 📂 GitHub Repository: *(this page)*  
+- 📂 GitHub Repository: [This Page](https://github.com/Ganja-Panda/Project-Origin/) 
 - 📧 Contact: ganjapanda@ganjapanda.net  
 - 🧾 License: CC-BY-NC 4.0  
 
@@ -117,6 +118,14 @@ We need only the unity of purpose.
 ## ⚡ Quickstart (Prototype)
 
 To test the proof-of-concept lineage map generator:
-
+Step 1: Run your python generator
 ```bash
 python scripts/origin_map.py --ancestry examples/ancestry_example.json --lookup examples/region_lookup.csv --out examples/your_lineage.geojson
+
+Step 2: 
+```bash
+python -m http.server 8000
+
+```bash
+Step 3: Open http://localhost:8000/examples/viewer.html
+(Leaflet pulls your_lineagel.geojason and draws it) 
