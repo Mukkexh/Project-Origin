@@ -107,7 +107,7 @@ We need only the unity of purpose.
 **If you believe education, empathy, and technology can bridge humanity’s divisions — join us.**
 
 - 📂 GitHub Repository: *(this page)*  
-- 📧 Contact: *(your email or alias)*  
+- 📧 Contact: ganjapanda@ganjapanda.net  
 - 🧾 License: CC-BY-NC 4.0  
 
 > “We are not different tribes.  
