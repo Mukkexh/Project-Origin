@@ -129,3 +129,6 @@ python -m http.server 8000
 # **Step 3 — View in browser**
 Open http://localhost:8000/examples/viewer.html
 *(Leaflet will load your_lineage.geojson and plot ancestry points)*
+
+💡 Tip: To test your lineage map visually, edit `viewer.html` and change the `fetch('your_lineage.geojson')`
+line to your generated file path if different.
