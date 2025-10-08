@@ -6,6 +6,7 @@
 **Status:** Open for collaboration, funding, and ethical development  
 **Version:** v0.1 - Prototype Build (2025-10-08)  
 
+
 ---
 
 ## 🌍 Vision
