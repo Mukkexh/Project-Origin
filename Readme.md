@@ -1,5 +1,6 @@
 # 🧬 Project Origin: The Human Continuity Archive  
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC--BY--NC%204.0-blue.svg)](LICENSE.md)  
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC--BY--NC%204.0-blue.svg)](LICENSE.md) 
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)  
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)  
 **Concept Author:** Jeremy Freshour [Ganja Panda] (Technomancer, PandaWorks Studio)  
 **Status:** Open for collaboration, funding, and ethical development  
@@ -16,7 +17,7 @@ It visualizes human ancestry, migration, and adaptation from the dawn of Homo sa
 
 Its mission is simple:  
 > To show every human being that there is no “us vs. them.”  
-> Only *us* — one adaptable species under many skys.
+> Only *us* — one adaptable species under many skies.
 
 ---
 
@@ -96,6 +97,12 @@ The infrastructure to connect us already exists — it simply needs to be assemb
 3. **Partnership Phase** – Collaborate with museums, educators, and geneticists.  
 4. **Therapeutic Expansion** – Build adaptive modules for veteran and elder care.  
 5. **Public Launch** – Open educational distribution via SteamVR and schools.  
+
+---
+## 🤖 AI & Developer Notes
+
+This repository includes [Copilot contribution guidelines](.github/copilot-instructions.md)  
+for AI-assisted and human developers who want to expand Project Origin.
 
 ---
 
